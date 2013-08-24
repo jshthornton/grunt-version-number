@@ -1,49 +1,33 @@
 {
-  "name": "grunt-init",
-  "description": "Generate project scaffolding from a template.",
-  "version": "0.2.1",
-  "homepage": "https://github.com/gruntjs/grunt-init",
-  "author": {
-    "name": "Grunt Team",
-    "url": "http://gruntjs.com/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/gruntjs/grunt-init.git"
-  },
-  "bugs": {
-    "url": "https://github.com/gruntjs/grunt-init/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/gruntjs/grunt-init/blob/master/LICENSE-MIT"
-    }
-  ],
-  "preferGlobal": true,
-  "bin": "bin/grunt-init",
-  "engines": {
-    "node": ">= 0.8.0"
-  },
-  "scripts": {
-    "test": "grunt test"
-  },
-  "dependencies": {
-    "prompt": "~0.1.12",
-    "semver": "~1.0.14",
-    "hooker": "~0.2.3",
-    "colors": "~0.6.0-1",
-    "grunt": "~0.4.0"
-  },
-  "devDependencies": {
-    "grunt-contrib-jshint": "~0.6.3",
-    "grunt-contrib-nodeunit": "~0.1.2"
-  },
-  "keywords": [
-    "grunt",
-    "template",
-    "scaffold",
-    "generate",
-    "project"
-  ]
+	"name": "grunt-version-number",
+	"description": "Update file version numbers from an argument.",
+	"version": "0.1.0",
+	"homepage": "https://github.com/Jshthornton/grunt-version-number",
+	"author": {
+		"name": "Joshua Thornton",
+		"url": "https://github.com/Jshthornton"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Jshthornton/grunt-version-number.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Jshthornton/grunt-version-number/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/Jshthornton/grunt-version-number/blob/master/LICENSE-MIT"
+		}
+	],
+	"preferGlobal": true,
+	"bin": "bin/grunt-version-number",
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+
+	"dependencies": {
+	},
+	"devDependencies": {
+	}
 }
