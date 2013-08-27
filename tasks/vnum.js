@@ -4,9 +4,6 @@ module.exports = function(grunt) {
 
 	grunt.loadNpmTasks('grunt-text-replace');
 
-	// Nodejs libs.
-	var path = require('path');
-
 	// ==========================================================================
 	// TASKS
 	// ==========================================================================
