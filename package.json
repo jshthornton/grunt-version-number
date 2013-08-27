@@ -27,6 +27,9 @@
 	},
 
 	"dependencies": {
+		"grunt-cli": "0.1.x",
+		"grunt": "~0.4.1",
+		"grunt-text-replace": "0.3.x"
 	},
 	"devDependencies": {
 	}
