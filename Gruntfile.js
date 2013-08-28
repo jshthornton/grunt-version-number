@@ -17,26 +17,7 @@ module.exports = function(grunt) {
 
 		jshint: {
 			options: {
-				eqeqeq: true,
-				eqnull: true,
-				browser: false,
-				es3: false,
-				forin: true,
-				indent: 4,
-				latedef: true,
-				newcap: true,
-				camelcase: true,
-				bitwise: true,
-				noarg: true,
-				noempty: true,
-				quotmark: 'single',
-				undef: true,
-				unused: true,
-				strict: true,
-				trailing: true,
-				globals: {
-					module: true
-				}
+				jshintrc: '.jshintrc'
 			},
 
 			all: ['Gruntfile.js', 'tasks/*']
