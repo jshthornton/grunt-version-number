@@ -5,7 +5,7 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		vnum: {
 			dist: {
-				src: ['tests/test.txt'],
+				src: ['package.json'],
 				overwrite: true,
 
 				replacements: [{
