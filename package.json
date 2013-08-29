@@ -1,7 +1,7 @@
 {
 	"name": "grunt-version-number",
 	"description": "Update file version numbers from an argument.",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"homepage": "https://github.com/Jshthornton/grunt-version-number",
 	"author": {
 		"name": "Joshua Thornton",
